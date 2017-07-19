@@ -77,4 +77,7 @@
 
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
 </resources>

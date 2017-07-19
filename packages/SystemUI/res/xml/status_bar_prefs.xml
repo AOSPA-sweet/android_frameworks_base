@@ -87,10 +87,15 @@
         android:key="cameratoggle"
         android:title="@string/quick_settings_camera_label" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.aospa.support.preferences.SystemSettingSwitchPreference
         android:key="combined_status_bar_signal_icons"
         android:title="@string/combined_status_bar_signal_icons_title"
         android:defaultValue="false"/>
+
+    <com.aospa.support.preferences.SystemSettingSwitchPreference
+        android:key="show_fourg_icon"
+        android:title="@string/show_fourg_icon_title"
+	android:defaultValue="false"/>
 
     <com.android.systemui.tuner.BatteryPreference
         android:title="@string/battery"
