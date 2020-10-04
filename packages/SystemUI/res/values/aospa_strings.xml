@@ -83,4 +83,11 @@
 
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
+
+    <!-- Name of the NFC status bar icon. -->
+    <string name="status_bar_nfc">NFC</string>
+
+    <!-- Accessibility label for NFC icon (not shown on screen) [CHAR LIMIT=NONE] -->
+    <string name="accessibility_status_bar_nfc">NFC</string>
+
 </resources>
