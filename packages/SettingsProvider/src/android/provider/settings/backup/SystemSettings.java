@@ -83,6 +83,8 @@ public class SystemSettings {
         Settings.System.DISPLAY_COLOR_MODE_VENDOR_HINT, // must precede DISPLAY_COLOR_MODE
         Settings.System.DISPLAY_COLOR_MODE,
         Settings.System.ALARM_ALERT,
+        Settings.System.AMBIENT_NOTIFICATION_LIGHT,
+        Settings.System.AMBIENT_NOTIFICATION_LIGHT_AUTOMATIC,
         Settings.System.NOTIFICATION_LIGHT_PULSE,
         Settings.System.DOUBLE_TAP_SLEEP_GESTURE,
         Settings.System.COMBINED_STATUS_BAR_SIGNAL_ICONS,
