@@ -70,6 +70,9 @@ LOCAL_REQUIRED_MODULES := \
     IconPackPUISettingsOverlay \
     IconPackPUISystemUIOverlay \
     IconPackPUIThemePickerOverlay \
+    IconPackDoraAndroidOverlay \
+    IconPackDoraSettingsOverlay \
+    IconPackDoraSystemUIOverlay \
     NavigationBarMode3ButtonOverlay \
     NavigationBarModeGesturalOverlay \
     NavigationBarModeGesturalOverlayNarrowBack \
