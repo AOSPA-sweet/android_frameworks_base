@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="-8.0dip" android:insetRight="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <vector android:tint="?android:colorControlNormal" android:height="40.0dip" android:width="40.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-        <path android:fillColor="#ff000000" android:pathData="M14.3843,22.1955C15.231,21.1287 16.539,20.4446 18.0067,20.4446C19.4745,20.4446 20.7824,21.1287 21.6291,22.1954L22.6312,20.9038C21.4924,19.6394 19.8424,18.8446 18.0067,18.8446C16.1711,18.8446 14.5211,19.6395 13.3822,20.9038L14.3843,22.1955ZM24.0755,19.0423L25.0712,17.759C23.3051,15.8741 20.7935,14.6965 18.0067,14.6965C15.22,14.6965 12.7083,15.8742 10.9423,17.759L11.9379,19.0424C13.4185,17.3589 15.5886,16.2965 18.0067,16.2965C20.4249,16.2965 22.5949,17.3588 24.0755,19.0423ZM26.5167,15.8959L27.51,14.6156C25.1179,12.1096 21.7446,10.5483 18.0067,10.5483C14.2688,10.5483 10.8955,12.1096 8.5034,14.6156L9.4967,15.8959C11.6058,13.5927 14.6376,12.1483 18.0067,12.1483C21.3758,12.1483 24.4076,13.5927 26.5167,15.8959ZM19.2349,24.2198C19.2349,24.8981 18.685,25.448 18.0067,25.448C17.3285,25.448 16.7786,24.8981 16.7786,24.2198C16.7786,23.5416 17.3285,22.9917 18.0067,22.9917C18.685,22.9917 19.2349,23.5416 19.2349,24.2198Z" android:fillType="evenOdd" />
-    </vector>
-</inset>
+<!--
+   Copyright (C) 2019 The Android Open Source Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:tint="?android:attr/colorControlNormal"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+    android:width="24dp" >
+    <path
+        android:fillColor="?android:attr/colorPrimary"
+        android:pathData="M12,2.75C7.95,2.69,4.05,4.3,1.22,7.2C0.96,7.5,0.97,7.95,1.24,8.23C1.53,8.53,2,8.54,2.3,8.25c2.55-2.61,6.05-4.06,9.7-4 c3.65-0.06,7.17,1.4,9.72,4.02c0.28,0.27,0.73,0.28,1.03,0.01c0.31-0.28,0.33-0.75,0.05-1.06C19.96,4.32,16.06,2.69,12,2.75z" />
+    <path
+        android:fillColor="?android:attr/colorPrimary"
+        android:pathData="M15.78,14.82c0.05,0.06,0.1,0.11,0.17,0.15c0.34,0.23,0.81,0.14,1.04-0.21s0.14-0.81-0.21-1.04 c-2.64-2.64-6.91-2.64-9.55,0c-0.27,0.29-0.27,0.73,0,1.02c0.28,0.3,0.76,0.32,1.06,0.04h0.03c0,0,0,0,0.01-0.01 c2.05-2.05,5.37-2.04,7.42,0.01C15.75,14.8,15.76,14.81,15.78,14.82z" />
+    <path
+        android:fillColor="?android:attr/colorPrimary"
+        android:pathData="M 12 17 C 12.8284271247 17 13.5 17.6715728753 13.5 18.5 C 13.5 19.3284271247 12.8284271247 20 12 20 C 11.1715728753 20 10.5 19.3284271247 10.5 18.5 C 10.5 17.6715728753 11.1715728753 17 12 17 Z" />
+    <path
+        android:fillColor="?android:attr/colorPrimary"
+        android:pathData="M20.03,11.79c0.3-0.29,0.3-0.77,0.01-1.06h-0.01c-2.12-2.18-5.01-3.44-8.04-3.5c-3.04,0.06-5.93,1.32-8.05,3.5 c-0.29,0.3-0.28,0.77,0.01,1.06c0.3,0.29,0.77,0.28,1.06-0.01c1.85-1.88,4.36-2.96,7-3c2.62,0.05,5.11,1.13,6.95,3 C19.25,12.07,19.73,12.08,20.03,11.79z" />
+</vector>

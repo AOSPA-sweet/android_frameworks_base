@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="-8.0dip" android:insetRight="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <vector android:tint="?android:colorControlNormal" android:height="40.0dip" android:width="40.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-        <path android:fillColor="#ff000000" android:pathData="M23.7319,11.8075C22.885,11.8075 22.1986,12.4939 22.1986,13.3408C22.1986,14.1878 22.885,14.8742 23.7319,14.8742C24.5789,14.8742 25.2653,14.1878 25.2653,13.3408C25.2653,12.4939 24.5789,11.8075 23.7319,11.8075ZM20.5986,13.3408C20.5986,11.6102 22.0013,10.2075 23.7319,10.2075C25.4625,10.2075 26.8653,11.6102 26.8653,13.3408C26.8653,15.0714 25.4625,16.4742 23.7319,16.4742C22.0013,16.4742 20.5986,15.0714 20.5986,13.3408ZM12.843,13.3631C12.4293,13.3631 12.0875,13.7049 12.0875,14.1186V24.2075H22.1764C22.5901,24.2075 22.9319,23.8657 22.9319,23.4519V17.2297H24.5319V23.4519C24.5319,24.7493 23.4738,25.8075 22.1764,25.8075H11.2875H10.4875V25.0075V14.1186C10.4875,12.8212 11.5457,11.7631 12.843,11.7631H19.843V13.3631H12.843ZM15.1764,16.4742H19.843V14.8742H15.1764V16.4742Z" android:fillType="evenOdd" />
-    </vector>
-</inset>
+<!--
+   Copyright (C) 2019 The Android Open Source Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:tint="?android:attr/colorControlNormal"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+    android:width="24dp" >
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M4,17.75c0,0.41,0.34,0.75,0.75,0.75h14.5c0.41,0,0.75-0.34,0.75-0.75S19.66,17,19.25,17H18v-6.6 c0-2.88-2.04-5.29-4.75-5.87V3.75c0-0.69-0.56-1.25-1.25-1.25s-1.25,0.56-1.25,1.25v0.77C8.04,5.11,6,7.51,6,10.4V17H4.75 C4.34,17,4,17.34,4,17.75z M7.5,10.4c0-2.48,2.02-4.5,4.5-4.5s4.5,2.02,4.5,4.5V17h-9V10.4z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M14,20h-4c0,1.1,0.9,2,2,2S14,21.1,14,20z" />
+</vector>

@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="-8.0dip" android:insetRight="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <vector android:tint="?android:colorControlNormal" android:height="40.0dip" android:width="40.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-        <path android:fillColor="#ff000000" android:pathData="M18.0053,11.0226C14.1515,11.0226 11.0275,14.1466 11.0275,18.0003C11.0275,21.8541 14.1515,24.9781 18.0053,24.9781C21.859,24.9781 24.983,21.8541 24.983,18.0003C24.983,14.1466 21.859,11.0226 18.0053,11.0226ZM9.4275,18.0003C9.4275,13.263 13.2679,9.4226 18.0053,9.4226C22.7426,9.4226 26.583,13.263 26.583,18.0003C26.583,22.7377 22.7426,26.5781 18.0053,26.5781C13.2679,26.5781 9.4275,22.7377 9.4275,18.0003ZM18.0677,14.911C17.8428,14.8999 17.6191,14.95 17.4205,15.0561C17.222,15.1622 17.0559,15.3203 16.9402,15.5134C16.8245,15.7066 16.7635,15.9275 16.7636,16.1527L15.1636,16.1536C15.1633,15.6385 15.303,15.133 15.5677,14.6911C15.8324,14.2493 16.2122,13.8876 16.6665,13.6449C17.1209,13.4022 17.6326,13.2874 18.1471,13.313C18.6615,13.3386 19.1594,13.5034 19.5874,13.79C20.0154,14.0766 20.3575,14.4741 20.5772,14.94C20.7968,15.4059 20.8857,15.9228 20.8343,16.4353C20.783,16.9478 20.5933,17.4368 20.2856,17.8499C19.9812,18.2586 19.5725,18.5779 19.1025,18.7744C19.0133,18.8162 18.9378,18.8827 18.8851,18.966C18.8308,19.0517 18.803,19.1516 18.8051,19.2531L18.8053,19.2614V19.2697V19.5559H17.2053V19.277C17.1985,18.8645 17.3124,18.459 17.5331,18.1103C17.7555,17.759 18.0764,17.4809 18.4558,17.3108L18.4672,17.3057L18.4787,17.301C18.6869,17.2153 18.868,17.0747 19.0025,16.8941C19.137,16.7136 19.2199,16.4998 19.2423,16.2758C19.2647,16.0518 19.2259,15.8259 19.1299,15.6222C19.0339,15.4185 18.8844,15.2448 18.6973,15.1195C18.5102,14.9943 18.2926,14.9222 18.0677,14.911ZM18.9775,21.5003C18.9775,22.0373 18.5422,22.4726 18.0053,22.4726C17.4683,22.4726 17.033,22.0373 17.033,21.5003C17.033,20.9634 17.4683,20.5281 18.0053,20.5281C18.5422,20.5281 18.9775,20.9634 18.9775,21.5003Z" android:fillType="evenOdd" />
-    </vector>
-</inset>
+<!--
+   Copyright (C) 2019 The Android Open Source Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:autoMirrored="true"
+    android:height="24dp"
+    android:tint="?android:attr/colorControlNormal"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+    android:width="24dp" >
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,22c0,0,0.01,0,0.01,0c5.5,0,9.98-4.47,9.99-9.98V12c0-5.51-4.49-10-10-10S2,6.49,2,12S6.49,22,12,22z M12,3.5 c4.69,0,8.5,3.81,8.5,8.5v0.02c0,4.68-3.81,8.48-8.49,8.48c0,0-0.01,0-0.01,0c-4.69,0-8.5-3.81-8.5-8.5S7.31,3.5,12,3.5z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M8.67,9.98c0.4,0.1,0.81-0.15,0.9-0.56c0.11-0.47,0.33-0.86,0.65-1.19c0.94-0.94,2.59-0.94,3.54,0 c0.49,0.49,0.73,1.13,0.67,1.76c-0.06,0.57-0.36,1.06-0.84,1.38c-0.13,0.08-0.26,0.16-0.4,0.24c-0.7,0.4-1.67,0.94-1.93,2.51 c-0.07,0.41,0.21,0.8,0.61,0.86C11.92,15,11.96,15,12,15c0.36,0,0.68-0.26,0.74-0.62c0.15-0.87,0.58-1.12,1.19-1.46 c0.17-0.09,0.33-0.19,0.49-0.29c0.87-0.58,1.41-1.46,1.51-2.48c0.11-1.08-0.29-2.17-1.1-2.97c-1.51-1.51-4.15-1.51-5.66,0 c-0.52,0.51-0.88,1.17-1.05,1.9C8.02,9.48,8.27,9.88,8.67,9.98z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M 12 16 C 12.5522847498 16 13 16.4477152502 13 17 C 13 17.5522847498 12.5522847498 18 12 18 C 11.4477152502 18 11 17.5522847498 11 17 C 11 16.4477152502 11.4477152502 16 12 16 Z" />
+</vector>
